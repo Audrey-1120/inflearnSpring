@@ -4,58 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72b6acbf-290b-4ed9-aaab-004b413d282d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/LibraryAppApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/controller/calculator/CalculatorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/controller/domain/user/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/controller/user/UserController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/controller/user/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/dto/calculator/request/CalculatorAddRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/dto/calculator/request/CalculatorMultiplyRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/dto/user/request/UserCreateRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/dto/user/request/UserUpdateRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/dto/user/response/UserResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/css/main.101cd0fe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/css/main.101cd0fe.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/js/787.61591191.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/js/787.61591191.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/js/main.d4f24480.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/js/main.d4f24480.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/js/main.d4f24480.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/media/NanumSquareOTF_acR.f257b7932f7dfa5253fb.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/media/book.e8aa0938ac8e06f50fb001ec8b292cbe.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/media/borrow.cd6f2db9966e32ef9a1dc7364cf5ce09.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/media/return.748530e2bb541a89000a913a50a9ec5a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/v1/static/media/user.8f52d9d1a7c82e3952a33a270e97bf20.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/user/UserController.java" afterDir="false" />
-    </list>
+    <list default="true" id="72b6acbf-290b-4ed9-aaab-004b413d282d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
