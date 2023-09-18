@@ -7,7 +7,7 @@ import com.group.libraryapp.repository.user.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service //UserService를 스프링 빈으로 등록해줌
+@Service //UserService를 스프링 빈으로 등록해줌, 직접 만든 클래스이기때문에 @Service 사용
 public class UserService {
 
     private final UserRepository userRepository;

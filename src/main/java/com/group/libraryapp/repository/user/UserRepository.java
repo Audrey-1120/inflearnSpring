@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
-@Repository //UserRepository를 Spring bean으로 등록해줌
+@Repository// : UserRepository를 Spring bean으로 등록해줌
 public class UserRepository { //데이터베이스에 접근해서 sql을 날리는 역할
 
     private final JdbcTemplate jdbcTemplate;
