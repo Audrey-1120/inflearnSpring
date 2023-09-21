@@ -6,6 +6,7 @@ import com.group.libraryapp.dto.user.request.UserCreateRequest;
 import com.group.libraryapp.dto.user.request.UserUpdateRequest;
 import com.group.libraryapp.dto.user.response.UserResponse;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -18,23 +19,30 @@ public class UserServiceV2 {
         this.userRepository = userRepository;
     }
 
+    //아래 있는 함수가 시작될 때 start transaction;을 해준다 (트랜잭션 시작)
+    //예외 없이 잘 끝났다면 commit
+    //혹시라도 문제가 있다면 rollback
+    @Transactional
     public void saveUser(UserCreateRequest request){
         userRepository.save(new User(request.getName(), request.getAge()));
     } //UserRepository의 save라는 메소드 호출해서 User 객체 생성
 
+    @Transactional(readOnly = true)
     public List<UserResponse> getUsers() {
         return userRepository.findAll().stream()
                 .map(UserResponse::new)
                 .collect(Collectors.toList());
     }
+
+    @Transactional
     public void updateUser(UserUpdateRequest request){
         User user = userRepository.findById(request.getId())
                 .orElseThrow(IllegalArgumentException::new);
 
         user.updateName(request.getName());
-        userRepository.save(user);
     }
 
+    @Transactional
     public void deleteUser(String name) {
         User user = userRepository.findByName(name)
                 .orElseThrow(IllegalArgumentException::new);
