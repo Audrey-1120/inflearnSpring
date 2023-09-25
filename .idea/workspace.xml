@@ -9,21 +9,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/controller/book/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/controller/book/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/domain/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/domain/book/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/domain/book/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/domain/book/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/domain/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/domain/user/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/service/book/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/group/libraryapp/service/book/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/controller/book/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/book/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/book/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/domain/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/service/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group/libraryapp/service/book/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +76,7 @@
     <configuration name="LibraryAppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.group.libraryapp.LibraryAppApplication" />
       <module name="library-app.main" />
+      <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.group.libraryapp.*" />
